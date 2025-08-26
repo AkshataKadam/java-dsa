@@ -1,1 +1,1 @@
-This is a JAVA DSA practice repo.
+This is a JAVA DSA practice repo
