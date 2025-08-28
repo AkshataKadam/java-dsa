@@ -1,11 +1,11 @@
 package multithreading;
 
-import multithreading.util.MultiThreadingLearning;
+import multithreading.util.MonitorLock;
 
 public class MultiThreadingConcepts {
 
     static void threadBasics() throws InterruptedException {
-        MultiThreadingLearning obj = new MultiThreadingLearning();
+        MonitorLock obj = new MonitorLock();
 
 //        obj.task1();
 //        obj.task2();
