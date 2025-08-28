@@ -1,12 +1,13 @@
 package dsa.stream;
 
+
 import dsa.stream.util.Utility;
 
 import java.util.*;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class Concepts {
+public class StreamConcepts {
     static void streamTerminalOps() {
         int[] arr = Utility.fetchArray();
         List<Integer> intList = Utility.fetchList();
