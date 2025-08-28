@@ -24,7 +24,7 @@ public class RecursionQuestions {
         res.add(arr[i]);
         // do not take a particular index
         print(i+1, arr, res);
-        res.removeLast();
+//        res.removeLast();
     }
 
     public static void powerSet(int[] arr) {
@@ -67,7 +67,7 @@ public class RecursionQuestions {
         print(i+1, arr, res, sum, k);
 
         // do not take a particular index
-        res.removeLast();
+//        res.removeLast();
         sum-=arr[i];
         print(i+1, arr, res, sum, k);
     }

@@ -2,7 +2,7 @@ package dsa.tree;
 
 import dsa.tree.util.Utility;
 
-public class ApplicationTree {
+public class TreeMain {
     public static void main(String[] args) {
 //        System.out.println("preorderTraversal");
 //        TreeTraversal.preorderTraversal(Utility.createTree());
