@@ -1,6 +1,6 @@
 package multithreading.util;
 
-public class MonitorLock {
+public class MonitorLockViaThread {
 
     public synchronized void task1() throws InterruptedException {
         System.out.println("Task 1 started");
